@@ -4,8 +4,8 @@
 main library : basic : os, datetime
               - web scrapping : request, Beautifulsoup4  
               - Preprocessing & analysis : pandas, emoji, contractions, sklearn, collections  
-                  + vader_analysis : vaderSentiment  
-                  + BERT : transformers, tqdm  
+                    + VADER : vaderSentiment  
+                    + BERT : transformers, tqdm  
               - Visualization : matplotlib, seaborn, wordcloud  
 
 ## 1. 분석 개요
