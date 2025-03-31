@@ -22,6 +22,7 @@ Delivered Korea 사용경험에 대한 후기 분석을 텍스트 마이닝 기�
 
 ### 2. 데이터 설명
 Trustpilot에서 수집가능한 데이터를 아래와 같이 수집하였음  
+
     <수집 데이터 정보>
         - name : reviewer 작성자명
         - country : reviewer 국적
@@ -32,6 +33,7 @@ Trustpilot에서 수집가능한 데이터를 아래와 같이 수집하였음
         - title : 리뷰 제목
         - content : 리뷰 내용
         - star_rating : 별점
+
         
 ### 3. EDA
 3.1 기본 정보
