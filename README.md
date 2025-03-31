@@ -76,23 +76,23 @@ Trustpilot에서 수집가능한 데이터를 아래와 같이 수집하였음
 
 4.3 그 외 분석
 4.3.1 시간경과에 따른 review 감정 분석 : 시계열 분석을 시행하였으나, 눈에 띄는 시간의 흐름에 따른 감정 점수의 변화가 거의 없었음
-![review 감정 시계열 분석](00.review_scrapper/02.image/DK_sentiment_시계열 분석 그래프.png)
+![review 감정 시계열 분석](02.image/DK_sentiment_시계열 분석 그래프.png)
 
 
 4.3.2 review 워드 클라우드 분석
-![긍정 리뷰 워드 클라우드](00.review_scrapper/02.image/DK_sentiment_긍정리뷰_wordcloud.png)
+![긍정 리뷰 워드 클라우드](02.image/DK_sentiment_긍정리뷰_wordcloud.png)
 
 분석 : fast(빠른), great(좋은), east(쉬운)과 같은 단어가 대체로 많았던 것으로 보아, 긍정적인 경험을 한 유저는 쉽고 빠르게 Delivered Korea의 서비스를 경험한 것으로 해석할 수 있음  
 
 
-![부정 리뷰 워드 클라우드](00.review_scrapper/02.image/DK_sentiment_부정리뷰_wordcloud.png)
+![부정 리뷰 워드 클라우드](02.image/DK_sentiment_부정리뷰_wordcloud.png)
 
 분석 : time(시간) & days(날들), package(포장), fee(요금), slow(느린)과 같은 단어가 있는 것으로 보아, 부정적인 경험을 한 배송 및 답변 지연, 혹은 포장 및 요금에 대한 불만이 있었던 것으로 분석될 수 있음 
 
 4.3.3 고객 불만 이슈별 키워드 빈도
 부정적인 리뷰를 작성한 유저의 단어를 클러스터링(군집화)하여 불만 이슈에 대한 빈도 분석
 
-![고객 불만 이슈별 키워드 빈도](00.review_scrapper/02.image/DK_sentiment_고객불만_이슈별키워드.png)
+![고객 불만 이슈별 키워드 빈도](02.image/DK_sentiment_고객불만_이슈별키워드.png)
 
 1위는 상품 누락, 품질, 오배송과 관련된 이슈였음 (package, unmber, item)과 관련된 불만이 가장 많았음
 다음으로 배송지연, 고객 응대 지연에 대한 불만이 가장 많았음.
@@ -102,7 +102,7 @@ Trustpilot에서 수집가능한 데이터를 아래와 같이 수집하였음
 
 4.3.4. reviewer 나라별 불만 이슈 분석
 
-![나라별 불만 이슈 분석](00.review_scrapper/02.image/DK_sentiment_나라별 불만 키워드.png)
+![나라별 불만 이슈 분석](02.image/DK_sentiment_나라별 불만 키워드.png)
 
 부정적인 리뷰를 작성한 유저의 나라별로 어떤 부정적인 경험을 가지고 있을지 확인하고자 추가 분석을 진행함.
 부정적인 리뷰를 작성한 유저가 나라당 1명인 경우가 다수이기 때문에 해당 리뷰가 각 나라의 유저의 의견을 대표하지는 못함 
